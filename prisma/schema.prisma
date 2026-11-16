@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  id       Int     @id @default(autoincrement())
+  name     String
+  category String
+  price    Int
+  released Boolean @default(true)
+}
+
+model User {
+  id       Int    @id @default(autoincrement())
+  username String @unique
+  password String // ponytail: plaintext ON PURPOSE — this is a lab target, not real auth
+  role     String @default("user")
+}
