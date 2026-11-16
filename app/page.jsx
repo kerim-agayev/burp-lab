@@ -26,6 +26,10 @@ export default function Home() {
           <b>SQL login bypass</b> —{" "}
           <a href="/vuln/login-sql">/vuln/login-sql</a> · <a href="/secure/login-sql">/secure/login-sql</a>
         </li>
+        <li>
+          <b>Blind SQLi (cookie)</b> —{" "}
+          <a href="/vuln/blind">/vuln/blind</a> · <a href="/secure/blind">/secure/blind</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
