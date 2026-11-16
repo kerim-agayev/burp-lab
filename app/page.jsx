@@ -18,6 +18,10 @@ export default function Home() {
           <b>Username enumeration (login)</b> —{" "}
           <a href="/vuln/login">/vuln/login</a> · <a href="/secure/login">/secure/login</a>
         </li>
+        <li>
+          <b>Insecure token (Base64 rol)</b> —{" "}
+          <a href="/vuln/profile">/vuln/profile</a> · <a href="/secure/profile">/secure/profile</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
