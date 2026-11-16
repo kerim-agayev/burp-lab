@@ -38,6 +38,10 @@ export default function Home() {
           <b>2FA broken logic (POST)</b> —{" "}
           <a href="/vuln/2fa">/vuln/2fa</a> · <a href="/secure/2fa">/secure/2fa</a>
         </li>
+        <li>
+          <b>Password reset token predictability</b> —{" "}
+          <a href="/vuln/reset">/vuln/reset</a> · <a href="/secure/reset">/secure/reset</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
