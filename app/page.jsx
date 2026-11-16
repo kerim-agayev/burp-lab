@@ -14,6 +14,10 @@ export default function Home() {
           <a href="/vuln/sqli?category=Gifts">/vuln/sqli?category=Gifts</a> ·{" "}
           <a href="/secure/sqli?category=Gifts">/secure/sqli</a>
         </li>
+        <li>
+          <b>Username enumeration (login)</b> —{" "}
+          <a href="/vuln/login">/vuln/login</a> · <a href="/secure/login">/secure/login</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
