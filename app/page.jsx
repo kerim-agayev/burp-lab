@@ -30,6 +30,10 @@ export default function Home() {
           <b>Blind SQLi (cookie)</b> —{" "}
           <a href="/vuln/blind">/vuln/blind</a> · <a href="/secure/blind">/secure/blind</a>
         </li>
+        <li>
+          <b>Brute-force lockout bypass (header)</b> —{" "}
+          <a href="/vuln/bruteforce">/vuln/bruteforce</a> · <a href="/secure/bruteforce">/secure/bruteforce</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
