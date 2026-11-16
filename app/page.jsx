@@ -50,6 +50,10 @@ export default function Home() {
           <b>Path traversal (file read)</b> —{" "}
           <a href="/vuln/traversal?file=logo.png">/vuln/traversal</a> · <a href="/secure/traversal?file=logo.png">/secure/traversal</a>
         </li>
+        <li>
+          <b>Command injection</b> —{" "}
+          <a href="/vuln/cmdi?name=dunya">/vuln/cmdi</a> · <a href="/secure/cmdi?name=dunya">/secure/cmdi</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
