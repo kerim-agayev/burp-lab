@@ -22,6 +22,10 @@ export default function Home() {
           <b>Insecure token (Base64 rol)</b> —{" "}
           <a href="/vuln/profile">/vuln/profile</a> · <a href="/secure/profile">/secure/profile</a>
         </li>
+        <li>
+          <b>SQL login bypass</b> —{" "}
+          <a href="/vuln/login-sql">/vuln/login-sql</a> · <a href="/secure/login-sql">/secure/login-sql</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
