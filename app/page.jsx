@@ -42,6 +42,10 @@ export default function Home() {
           <b>Password reset token predictability</b> —{" "}
           <a href="/vuln/reset">/vuln/reset</a> · <a href="/secure/reset">/secure/reset</a>
         </li>
+        <li>
+          <b>"Remember me" cookie forgery</b> —{" "}
+          <a href="/vuln/dashboard">/vuln/dashboard</a> · <a href="/secure/dashboard">/secure/dashboard</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
