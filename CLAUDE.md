@@ -30,6 +30,12 @@ npm run dev          # http://localhost:3000 (port məşğuldursa 3001/3002...)
 ```
 Baza artıq qurulub və doldurulub (Neon paylaşılan). **Yenidən** `db:push`/`db:seed` yalnız baza boşdursa lazımdır.
 
+## Path traversal lab-ı üçün decoy fayl
+`secret.txt` `.gitignore`-dadır (real sirr deyil, saxta mətn, amma ehtiyatlı olmaq üçün commit olunmur). Yeni kompda yarat:
+```powershell
+'SƏHV: gizli məlumat - DATABASE_URL=postgres://secret-not-real' | Out-File -Encoding utf8 secret.txt
+```
+
 ## Deploy
 - Public (qorumalı): https://burp-lab-mocha.vercel.app
 - `main`-ə push → Vercel avtomatik deploy. Env dəyişikliyi sonra Redeploy istəyir.
