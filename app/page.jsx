@@ -34,6 +34,10 @@ export default function Home() {
           <b>Brute-force lockout bypass (header)</b> —{" "}
           <a href="/vuln/bruteforce">/vuln/bruteforce</a> · <a href="/secure/bruteforce">/secure/bruteforce</a>
         </li>
+        <li>
+          <b>2FA broken logic (POST)</b> —{" "}
+          <a href="/vuln/2fa">/vuln/2fa</a> · <a href="/secure/2fa">/secure/2fa</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
