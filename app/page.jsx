@@ -58,6 +58,10 @@ export default function Home() {
           <b>Business logic: price manipulation</b> —{" "}
           <a href="/vuln/checkout?productId=1">/vuln/checkout</a> · <a href="/secure/checkout?productId=1">/secure/checkout</a>
         </li>
+        <li>
+          <b>Information disclosure: verbose error (API)</b> —{" "}
+          <a href="/vuln/account?id=abc">/vuln/account</a> · <a href="/secure/account?id=abc">/secure/account</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
