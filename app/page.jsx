@@ -54,6 +54,10 @@ export default function Home() {
           <b>Command injection</b> —{" "}
           <a href="/vuln/cmdi?name=dunya">/vuln/cmdi</a> · <a href="/secure/cmdi?name=dunya">/secure/cmdi</a>
         </li>
+        <li>
+          <b>Business logic: price manipulation</b> —{" "}
+          <a href="/vuln/checkout?productId=1">/vuln/checkout</a> · <a href="/secure/checkout?productId=1">/secure/checkout</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
