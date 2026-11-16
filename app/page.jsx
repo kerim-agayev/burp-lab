@@ -46,6 +46,10 @@ export default function Home() {
           <b>"Remember me" cookie forgery</b> —{" "}
           <a href="/vuln/dashboard">/vuln/dashboard</a> · <a href="/secure/dashboard">/secure/dashboard</a>
         </li>
+        <li>
+          <b>Path traversal (file read)</b> —{" "}
+          <a href="/vuln/traversal?file=logo.png">/vuln/traversal</a> · <a href="/secure/traversal?file=logo.png">/secure/traversal</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>

@@ -3,3 +3,5 @@ node_modules
 .env
 .env*.local
 *.log
+# ponytail: lab-only decoy secret for the path-traversal exercise — fake content, but keep it out of the public repo anyway
+secret.txt
