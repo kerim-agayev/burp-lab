@@ -78,6 +78,10 @@ export default function Home() {
           <b>XXE (XML external entity)</b> —{" "}
           <a href="/vuln/greeting">/vuln/greeting</a> · <a href="/secure/greeting">/secure/greeting</a>
         </li>
+        <li>
+          <b>NoSQL injection (JSON operator)</b> —{" "}
+          <a href="/vuln/nosql-login">/vuln/nosql-login</a> · <a href="/secure/nosql-login">/secure/nosql-login</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
