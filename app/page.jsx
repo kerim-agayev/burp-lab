@@ -66,6 +66,10 @@ export default function Home() {
           <b>Access control: IDOR (cookie + id)</b> —{" "}
           <a href="/vuln/user">/vuln/user</a> · <a href="/secure/user">/secure/user</a>
         </li>
+        <li>
+          <b>File upload (multipart)</b> —{" "}
+          <a href="/vuln/upload">/vuln/upload</a> · <a href="/secure/upload">/secure/upload</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
