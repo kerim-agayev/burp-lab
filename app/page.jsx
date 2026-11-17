@@ -70,6 +70,10 @@ export default function Home() {
           <b>File upload (multipart)</b> —{" "}
           <a href="/vuln/upload">/vuln/upload</a> · <a href="/secure/upload">/secure/upload</a>
         </li>
+        <li>
+          <b>SSRF (server-side request)</b> —{" "}
+          <a href="/vuln/preview?url=https://picsum.photos/200">/vuln/preview</a> · <a href="/secure/preview?url=https://picsum.photos/200">/secure/preview</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
