@@ -86,6 +86,10 @@ export default function Home() {
           <b>Race condition (bir dəfəlik hədiyyə kodu)</b> —{" "}
           <a href="/vuln/redeem">/vuln/redeem</a> · <a href="/secure/redeem">/secure/redeem</a>
         </li>
+        <li>
+          <b>Reflected XSS (axtarış qutusu)</b> —{" "}
+          <a href="/vuln/search?q=test">/vuln/search</a> · <a href="/secure/search?q=test">/secure/search</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
