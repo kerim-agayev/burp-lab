@@ -28,3 +28,10 @@ export async function POST(request) {
   const nameMatch = resolved.match(/<name>([\s\S]*?)<\/name>/);
   return Response.json({ greeting: `Salam, ${nameMatch ? nameMatch[1] : "(ad tapılmadı)"}` });
 }
+
+export async function GET() {
+  return new Response(
+    "POST bu ünvana Content-Type: application/xml ilə body göndər, məs. <name>Kerim</name>",
+    { headers: { "Content-Type": "text/plain; charset=utf-8" } }
+  );
+}
