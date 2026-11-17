@@ -82,6 +82,10 @@ export default function Home() {
           <b>NoSQL injection (JSON operator)</b> —{" "}
           <a href="/vuln/nosql-login">/vuln/nosql-login</a> · <a href="/secure/nosql-login">/secure/nosql-login</a>
         </li>
+        <li>
+          <b>Race condition (bir dəfəlik hədiyyə kodu)</b> —{" "}
+          <a href="/vuln/redeem">/vuln/redeem</a> · <a href="/secure/redeem">/secure/redeem</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
