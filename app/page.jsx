@@ -62,6 +62,10 @@ export default function Home() {
           <b>Information disclosure: verbose error (API)</b> —{" "}
           <a href="/vuln/account?id=abc">/vuln/account</a> · <a href="/secure/account?id=abc">/secure/account</a>
         </li>
+        <li>
+          <b>Access control: IDOR (cookie + id)</b> —{" "}
+          <a href="/vuln/user">/vuln/user</a> · <a href="/secure/user">/secure/user</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
