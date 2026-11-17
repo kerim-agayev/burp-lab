@@ -74,6 +74,10 @@ export default function Home() {
           <b>SSRF (server-side request)</b> —{" "}
           <a href="/vuln/preview?url=https://picsum.photos/200">/vuln/preview</a> · <a href="/secure/preview?url=https://picsum.photos/200">/secure/preview</a>
         </li>
+        <li>
+          <b>XXE (XML external entity)</b> —{" "}
+          <a href="/vuln/greeting">/vuln/greeting</a> · <a href="/secure/greeting">/secure/greeting</a>
+        </li>
       </ul>
 
       <p style={{ color: "#888", fontSize: 14 }}>
